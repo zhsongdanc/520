@@ -96,10 +96,12 @@
 </head>
 
 <body>
-
+<div class="cs">
+    <img src="images/pic4.jpg" id="logo">
+</div>
 <canvas class="canvas" width="1820" height="905"></canvas>
 <p class="text" style="color: #ed3073;">
-    We fell in love
+    We met for the first time
     <br/>
     <span id="span_dt_dt"></span>
 </p>
@@ -130,7 +132,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             //想说的话
-            S.UI.simulate("{{陈丹}}|I'm|宋泽辉|Nice|to|Meet|You|#countdown 3|#time");
+            S.UI.simulate("{Miss Chen}}|Nice|to|Meet|You|#countdown 3|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
